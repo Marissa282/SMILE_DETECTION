@@ -1,9 +1,27 @@
-# SMILE_DETECTION
-A comparative study of three approaches to smile detection—CNN, Autoencoder, and SVM + PCA—evaluated on the same LFW subset. The CNN achieved the highest accuracy, the SVM offered the best efficiency, and the Autoencoder underperformed for this task.
-
 # Smile Detection: CNN vs Autoencoder vs SVM
 
 This project compares three different approaches to **smile detection** using a curated subset of the LFW dataset: a **Convolutional Neural Network (CNN)**, a **Convolutional Autoencoder** trained as a one-class anomaly detector, and a **Support Vector Machine (SVM) with PCA**. All models were trained using the same preprocessing steps, stratified splits, and fixed random seed to ensure a fair comparison.
+
+---
+
+## 📁 Dataset Description & Access
+
+This dataset consists of two components:
+
+### **1. Labels**
+- Included in two text files:
+  - `SMILE_list.txt`
+  - `NON-SMILE_list.txt`
+- Each file contains the filenames of images classified as **smile** or **non-smile**.
+
+### **2. Image Files**
+You must manually download the face images from:
+
+🔗 **http://conradsanderson.id.au/lfwcrop/**
+
+- Download **lfwcrop_color.zip**
+- Extract the `.ppm` files
+- Copy **all** extracted images into the directory:
 
 ## Key Results
 
@@ -35,4 +53,5 @@ This project compares three different approaches to **smile detection** using a 
 The **CNN** provides the highest accuracy, the **SVM** is the most efficient, and the **Autoencoder** is not suitable for detecting subtle facial expressions like smiles. This repository includes all code, experiments, and the full technical report.
 
 The **CNN** provides the highest accuracy, the **SVM** is the most efficient, and the **Autoencoder** is not suitable for detecting subtle facial expressions like smiles. This repository includes all code, experiments, and the full technical report.
+
 
