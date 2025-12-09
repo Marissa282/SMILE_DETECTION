@@ -16,8 +16,6 @@ This dataset consists of two components:
 
 ### **2. Image Files**
 You must manually download the face images from:
-faces/  `dataset.py`
-To load the dataset with PyTorch, you can use the baseline code in:
 
 
 🔗 **http://conradsanderson.id.au/lfwcrop/**
@@ -25,6 +23,11 @@ To load the dataset with PyTorch, you can use the baseline code in:
 - Download **lfwcrop_color.zip**
 - Extract the `.ppm` files
 - Copy **all** extracted images into the directory:
+faces/
+
+### **Loading Data**
+A baseline PyTorch loader is available in:
+`dataset.py`
 
 ## Key Results
 
