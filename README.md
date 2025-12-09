@@ -16,6 +16,9 @@ This dataset consists of two components:
 
 ### **2. Image Files**
 You must manually download the face images from:
+faces/  `dataset.py`
+To load the dataset with PyTorch, you can use the baseline code in:
+
 
 🔗 **http://conradsanderson.id.au/lfwcrop/**
 
